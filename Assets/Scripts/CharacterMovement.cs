@@ -9,6 +9,7 @@ public class CharacterMovement : MonoBehaviour
 
 
     public float Speed = 5f;
+    
 
     private void Start()
     {
@@ -24,6 +25,7 @@ public class CharacterMovement : MonoBehaviour
 
         charactercontroller.Move(move * Time.deltaTime * Speed);
 
+      
     }
 
 }
